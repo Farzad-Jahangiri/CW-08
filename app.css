@@ -52,3 +52,31 @@ input {
   border: none;
   background-color: #eeeeee;
 }
+
+/* right */
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.rightTop,
+.rightBottom {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.box {
+  width: 270px;
+  height: 35px;
+  background-color: rgb(193, 133, 133);
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 2px;
+}
+
+label {
+  color: gray;
+}
