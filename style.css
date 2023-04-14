@@ -1,0 +1,240 @@
+@import url(http://fonts.googleapis.com/earlyaccess/scheherazade.css);
+
+* {
+    padding: 0;
+    margin: .5rem;
+    box-sizing: border-box;
+}
+
+body {
+    justify-content: right;
+    direction: rtl;
+    height: 600px;
+    /* background-color: rgb(255, 249, 249); */
+}
+
+.section1 {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.section2 {
+    width: 100%;
+
+}
+
+.menu_option {
+    width: 35px;
+    height: 35px;
+
+}
+
+.Aparat {
+    width: 85px;
+    height: 30px;
+}
+
+.live {
+    width: 35px;
+    height: 35px;
+}
+
+.profile {
+    position: absolute;
+    margin-left: -3px;
+    width: 18px;
+    height: 18px;
+    left: 120px;
+    top: 28px;
+}
+
+.video {
+    width: 900px;
+    height: 650px;
+}
+
+.more {
+    position: absolute;
+    top: 44rem;
+    left: 1000px;
+    width: 35px;
+    height: 35px;
+}
+
+.share {
+    position: absolute;
+    top: 44rem;
+    left: 1100px;
+    width: 35px;
+    height: 35px;
+}
+
+.download {
+    position: absolute;
+    top: 44rem;
+    left: 1200px;
+    width: 35px;
+    height: 35px;
+}
+
+.add {
+    position: absolute;
+    top: 44rem;
+    left: 1300px;
+    width: 35px;
+    height: 35px;
+}
+
+.like {
+    position: absolute;
+    top: 44rem;
+    left: 1400px;
+    width: 35px;
+    height: 35px;
+}
+
+.aparat {
+    position: absolute;
+    top: 44rem;
+    left: 1820px;
+    width: 50px;
+    height: 50px;
+}
+
+.channel_inf {
+    position: absolute;
+    top: 79vh;
+    left: 1705px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+}
+
+.btn {
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    background-color: aliceblue;
+    color: lightskyblue;
+    border: .5px solid lightskyblue;
+    border-radius: 20px;
+    left: 150px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(213, 255, 254);
+}
+
+.input {
+    position: absolute;
+    left: 700px;
+    width: 600px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid rgb(209, 209, 209);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    background-color: rgba(255, 250, 250, 0.755);
+
+}
+
+.linkone {
+    position: absolute;
+    left: 8px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: rgb(141, 140, 140);
+}
+
+#one {
+    font-family: 'Scheherazade', serif;
+    font-size: 34px;
+
+}
+
+#two {
+    position: absolute;
+    left: 870px;
+    top: 70vh;
+    font-size: 24px;
+    font-family: 'Scheherazade', serif;
+}
+
+.section3 {
+    width: 50%;
+    height: 10px;
+    direction: ltr;
+}
+
+.follow {
+    position: absolute;
+    top: 700px;
+    left: 860px;
+    border: 1px solid rgb(223, 15, 80);
+    border-radius: 20px;
+    width: 110px;
+    height: 45px;
+    background-color: rgb(223, 15, 80);
+    font-family: 'scheherazade', serif;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.section4 {
+    width: 60%;
+    height: 8rem;
+    border: 1px solid rgb(245, 245, 249);
+    border-radius: 20px;
+    background-color: rgb(245, 245, 249);
+}
+
+.aparat2 {
+    position: absolute;
+    top: 53rem;
+    left: 1750px;
+    width: 70px;
+    height: 70px;
+}
+
+.extra {
+    font-family: 'scheherazade', serif;
+    font-size: 30px;
+    position: absolute;
+    left: 1400px;
+    top: 94vh;
+}
+
+.extra2 {
+    font-family: 'scheherazade', serif;
+    font-size: 26px;
+    position: absolute;
+    left: 1420px;
+    top: 98vh;
+    color: rgb(46, 46, 46);
+}
+
+.download_extra {
+
+    font-family: 'scheherazade', serif;
+    font-size: 26px;
+    position: absolute;
+    left: 800px;
+    top: 95.5vh;
+    background-color: green;
+    color: aliceblue;
+    width: 180px;
+    height: 45px;
+    font-family: 'scheherazade', serif;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid green;
+}
+
+.download_extra:hover {
+    background-color: yellowgreen;
+}
